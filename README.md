@@ -1,6 +1,6 @@
 # Melody - Учебный проект
-
-#  Технологии
-#  html
-#  css
-#  javascript
+##  Выполнил: Алексей Дутов
+###  Технологии
+-  html
+-  css
+-  javascript
