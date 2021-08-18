@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.woff2) format('woff2');
+  src: url(../fonts/Roboto-Black.woff) format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Bold.woff2) format('woff2');
+  src: url(../fonts/Roboto-Bold.woff) format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Light.woff2) format('woff2');
+  src: url(../fonts/Roboto-Light.woff) format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Medium.woff2) format('woff2');
+  src: url(../fonts/Roboto-Medium.woff) format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.woff2) format('woff2');
+  src: url(../fonts/Roboto-Regular.woff) format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Thin.woff2) format('woff2');
+  src: url(../fonts/Roboto-Thin.woff) format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif
+}
+
+.header {
+  max-width: 1440px;
+  height: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #3596F5;
+  background-color: rgba(99, 88, 84, 1);
+}
+
+.navbar {
+  display: flex;
+  max-width: 1280px;
+  margin: auto ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 19px;
+  list-style: none;
+}
+
+.navbar-item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.navbar-text {
+  display: block;
+  margin-bottom: 4px;
+  text-align: end;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.navbar-phone {
+  font-size: 17px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
